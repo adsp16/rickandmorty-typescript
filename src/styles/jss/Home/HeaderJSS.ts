@@ -2,7 +2,7 @@ import { makeStyles, createStyles } from "@material-ui/core/styles";
 import {Theme} from '@material-ui/core/styles/createMuiTheme'; 
 
 
-export const useStyles = makeStyles((theme : Theme) => ({
+export const useStyles = makeStyles((theme : Theme) => createStyles({
   mainImage: {
     width: "100%",
     height: "100%",
